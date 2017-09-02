@@ -34,6 +34,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+body {
+   min-width: 700px; /* suppose you want minimun width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
+   width: 100%;             /* As IE ignores !important it will set width as 1000px; 100% vs 1000px ??? */
+}
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
