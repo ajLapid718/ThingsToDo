@@ -40,6 +40,19 @@ body {
    width: 100%;             /* As IE ignores !important it will set width as 1000px; 100% vs 1000px ??? */
 }
 
+#notice {
+  text-align: center;
+  font-size: 0.9em;
+  color: $dark;
+  font-weight: 100;
+  border: 1px solid $white_opaque;
+  padding: .5em 1em;
+  border-radius: 5px;
+  display: block;
+  margin: 1em 25%;
+  background-color: lightgreen;
+}
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -48,13 +61,6 @@ body {
 
 .clearfix:after {
     clear: both;
-}
-
-#notice {
-	text-align: center;
-	font-size: 0.6em;
-	color: $dark;
-	font-weight: 100;
 }
 
 .container {
